@@ -1,5 +1,6 @@
-@import url(/assets/CSS/pokedex.css);
-@import url(/assets/CSS/color.css);
+@import url(/CSS/pokedex.css);
+@import url(/CSS/color.css);
+
 :root {
     --preto: #000000;
     --branco: #ffffff;
@@ -12,8 +13,19 @@
     --bkg-bug: #a8b820;
     --bkg-normal: #a8a878;
     --bkg-poison: #a040a0;
+    --bkg-flying: #a890f0;
     --bkg-electric: #f8d030;
     --bkg-ground: #e0c068;
+    --bkg-fairy: #ee99ac;
+    --bkg-ice: #98d8d8;
+    --bkg-steel: #b8b8d0;
+    --bkg-dark: #705848;
+    --bkg-ghost: #705898;
+    --bkg-psychic: #f85888;
+    --bkg-Fighting: #c03028;
+    --bkg-rock: #6b5d20;
+    --bkg-dragon: #4d26ab;
+    
 
 
     --type-grass: #04e923;
@@ -25,6 +37,15 @@
     --type-normal: #828058;
     --type-electric: #fff131;
     --type-ground: #ad9450;
+    --type-fairy: #ffa3ac;
+    --type-ice: #b3ffff;
+    --type-steel: #747483;
+    --type-dark: #bc9479;
+    --type-ghost: #a884e4;
+    --type-psychic: #ff5a75;
+    --type-Fighting: #ff3f35;
+    --type-rock:#b8a038;
+    --type-dragon: #8d38ff;
 }
 
 
@@ -58,7 +79,7 @@ body{
 }
 
 @media screen and (min-width: 992px){
-    .content {
+    .content{
         height: auto;       
         max-width: 992px;
         margin: 1rem auto;
