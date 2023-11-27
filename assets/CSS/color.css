@@ -1,0 +1,79 @@
+.typeGrass {
+    background-color: var(--type-grass);
+    color: var(--branco);
+}
+
+.typePoison {
+    background-color: var(--type-poison);
+    color: var(--branco);
+}
+
+.typeFire {
+    background-color: var(--type-fire);
+    color: var(--branco);
+}
+
+.typeFlying {
+    background-color: var(--type-flying);
+    color: var(--branco);
+}
+
+.typeWater {
+    background-color: var(--type-water);
+    color: var(--branco);
+}
+
+.typeBug {
+    background-color: var(--type-bug);
+    color: var(--branco);
+}
+
+.typeNormal {
+    background-color: var(--type-normal);
+    color: var(--branco);
+}
+
+.typeElectric {
+    background-color: var(--type-electric);
+    color: var(--preto);
+    
+}
+
+.typeGround {
+    background-color: var(--type-ground);
+    color: var(--branco);
+}
+
+/* BACKGROUND POKÉMONS */
+
+
+.pkmGrass {
+    background-color: var(--bkg-grass);
+}
+
+.pkmFire {
+    background-color: var(--bkg-fire);
+}
+
+.pkmWater {
+    background-color: var(--bkg-water);
+}
+
+.pkmBug {
+    background-color: var(--bkg-bug);
+}
+.pkmNormal {
+    background-color: var(--bkg-normal);
+}
+
+.pkmPoison {
+    background-color: var(--bkg-poison);
+}
+
+.pkmElectric {
+    background-color: var(--bkg-electric);
+}
+
+.pkmGround {
+    background-color: var(--bkg-ground);
+}

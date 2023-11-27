@@ -1,10 +1,40 @@
+@import url(/assets/CSS/pokedex.css);
+@import url(/assets/CSS/color.css);
+:root {
+    --preto: #000000;
+    --branco: #ffffff;
+    --cinza: #4a4a4a;
+    --background: rgb(215, 215, 225);
+
+    --bkg-grass: #02ba05;
+    --bkg-fire: #ff9100;
+    --bkg-water: #0073ff;
+    --bkg-bug: #a8b820;
+    --bkg-normal: #a8a878;
+    --bkg-poison: #a040a0;
+    --bkg-electric: #f8d030;
+    --bkg-ground: #e0c068;
+
+
+    --type-grass: #04e923;
+    --type-fire: #ff7b00;
+    --type-water: #00a6ff;
+    --type-poison: #b700d3;
+    --type-flying: #5f77e3;
+    --type-bug: #a2cc23;
+    --type-normal: #828058;
+    --type-electric: #fff131;
+    --type-ground: #ad9450;
+}
+
+
 * {
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
 }
 
 body{
-    background-color: #f6f8fc;
+    background-color: var(--background);
 }
 
 .content h1 {
@@ -13,9 +43,18 @@ body{
 
 .content {
     padding: 1rem;
-    background-color: white;
+    background-color: var(--branco);
     height: 100vh;
     width: 100vw;
+}
+
+.rodape {
+    padding: 5px;
+    background-color: #22d4fd;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--preto);
 }
 
 @media screen and (min-width: 992px){

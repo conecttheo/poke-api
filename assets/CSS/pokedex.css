@@ -10,42 +10,22 @@
     display: flex;
     margin: .5rem;
     padding: 1.5rem;
-    background-color: #02ba05;
-    color: white;
-    border-radius: 1rem;
-    flex-direction: column;
-}
-
-.pkmFire {
-    display: flex;
-    margin: .5rem;
-    padding: 1.5rem;
-    background-color: #ff9100;
-    color: white;
-    border-radius: 1rem;
-    flex-direction: column;
-}
-
-.pkmWater {
-    display: flex;
-    margin: .5rem;
-    padding: 1.5rem;
-    background-color: #0073ff;
-    color: white;
+    color: var(--branco);
     border-radius: 1rem;
     flex-direction: column;
 }
 
 .pokemon .number {
-    color: #000000;
+    color: var(--preto);
     text-align: right;
-    opacity: .2;
-    font-size: .625rem;
+    opacity: .5;
+    font-size: 1rem;
 }
 
 .pokemon .name {
-    color: white;
+    color: var(--branco);
     margin-bottom: .25rem;
+    font-size: 22px;
 }
 
 .pokemon .detail {
@@ -55,60 +35,25 @@
     justify-content: space-between;
 }
 
-.pokemon .detail .types {
+.types {
     padding: 0;
     margin: 0;
     list-style: none;
+    width: 35%;
 }
 
-.pokemon .detail .types .type{
-    background-color: #04e923;
-    color: white;
+.type {
     padding: .25rem .5rem ;
     margin: .25rem 0;
     font-size: .625rem;
     border-radius: 2rem;
-}
-
-.pokemon .detail .types .typePoison{
-    background-color: #b700d3;
-    color: white;
-    padding: .25rem .5rem ;
-    margin: .25rem 0;
-    font-size: .625rem;
-    border-radius: 2rem;
-}
-
-.pokemon .detail .types .typeFire{
-    background-color: #ff7b00;
-    color: white;
-    padding: .25rem .5rem ;
-    margin: .25rem 0;
-    font-size: .625rem;
-    border-radius: 2rem;
-}
-
-.pokemon .detail .types .typeFlying{
-    background-color: #5f77e3;
-    color: white;
-    padding: .25rem .5rem ;
-    margin: .25rem 0;
-    font-size: .625rem;
-    border-radius: 2rem;
-}
-
-.pokemon .detail .types .typeWater{
-    background-color: #00a6ff;
-    color: white;
-    padding: .25rem .5rem ;
-    margin: .25rem 0;
-    font-size: .625rem;
-    border-radius: 2rem;
+    border: solid 1px var(--cinza);
+    text-align: center;
 }
 
 .pokemon .detail img {
     max-width: 100%;
-    height: 70px;
+    height: 80px;
     align-self: flex-end;
 }
 
