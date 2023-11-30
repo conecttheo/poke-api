@@ -15,6 +15,11 @@
     flex-direction: column;
 }
 
+.pokemon:hover {
+    transform: scale(1.2);
+    border: 1px solid #000;
+}
+
 .pokemon .number {
     color: var(--preto);
     text-align: right;
