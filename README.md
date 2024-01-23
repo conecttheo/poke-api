@@ -8,7 +8,7 @@
 | -------------  | --- |
 | :sparkles: Nome        | **POKEAPI**
 | :label: Tecnologias | HTML / CSS / JAVASCRIPT
-| :rocket: URL         | 
+| :rocket: URL         | conecttheo.github.io/poke-api/
 
 <h3>PÁGINA INICIAL<h3/>
   
